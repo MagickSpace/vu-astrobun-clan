@@ -24,6 +24,7 @@
     "jsxImportSource": "react",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "useDefineForClassFields": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

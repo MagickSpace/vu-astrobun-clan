@@ -28,8 +28,9 @@ export default defineConfig({
   integrations: [
     react(), 
     vue({
-    devtools: true,
-    reactivityTransform: true,
+      jsx: true,
+      devtools: true,
+      reactivityTransform: true,
   }),
   AutoImport({
     imports: [
