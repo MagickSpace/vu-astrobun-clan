@@ -1,0 +1,56 @@
+{
+  "name": "vu-astrobun-clan",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bunx --bun astro dev --verbose",
+    "start": "bun astro check && bunx --bun astro dev --verbose",
+    "build": "bun astro check && bunx --bun astro build --verbose",
+    "preview": "bunx --bun astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.6.0",
+    "@astrojs/mdx": "^3.0.0",
+    "@astrojs/partytown": "^2.1.0",
+    "@astrojs/react": "^3.3.4",
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/vue": "^4.2.0",
+    "@radix-icons/vue": "^1.0.0",
+    "@tailwindcss/postcss": "^4.0.0-alpha.15",
+    "@tailwindcss/vite": "^4.0.0-alpha.15",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vueuse/core": "^10.9.0",
+    "astro": "^4.8.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "embla-carousel": "^8.0.4",
+    "embla-carousel-vue": "^8.0.4",
+    "million": "^3.0.6",
+    "radix-vue": "^1.7.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^4.0.0-alpha.15",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.4.5",
+    "unplugin-auto-import": "^0.17.6",
+    "vite": "^5.2.11",
+    "vue": "^3.4.27",
+    "zod": "^3.23.8"
+  },
+  "module": "index.ts",
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/MagickSpace/vu-astrobun-clan",
+  "author": "MagickSpace <146006257+MagickSpace@users.noreply.github.com>",
+  "license": "MIT"
+}
